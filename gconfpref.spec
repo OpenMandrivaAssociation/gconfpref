@@ -54,7 +54,7 @@ Icon=%{name}
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=GNOME;GTK;X-MandrivaLinux-System-Configuration-GNOME
+Categories=GNOME;GTK;X-MandrivaLinux-System-Configuration-GNOME;
 EOF
 
 %find_lang %name --all-name
