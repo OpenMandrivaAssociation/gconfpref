@@ -10,7 +10,6 @@ License: GPL
 Url: http://www.angelfire.com/linux/dbrody/gconfpref.html
 Group: Graphical desktop/GNOME
 Source: %{name}-%{version}.tar.bz2
-BuildRoot: %{_tmppath}/build-root-%{name}
 
 BuildRequires: automake >= 1.4
 Buildrequires: libgnome2-devel >= 2.0
