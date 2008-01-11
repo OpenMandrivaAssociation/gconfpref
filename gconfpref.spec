@@ -36,13 +36,6 @@ mkdir $RPM_BUILD_ROOT
 rm -rf ${RPM_BUILD_ROOT}
 %makeinstall_std
 
-mkdir -p %{buildroot}/%{_menudir}
-cat << EOF > %{buildroot}/%{_menudir}/%{name}
-?package(%name):command="%{_bindir}/gconfpref" icon="configuration_section.png" \
-                needs="X11" section="Configuration/GNOME" \
- title="Gconfpref" longtitle="Edit your gnome preferences" needs="gnome" \
- xdg="true"
-EOF
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/applications
 cat > $RPM_BUILD_ROOT%{_datadir}/applications/mandriva-%{name}.desktop << EOF
@@ -71,7 +64,6 @@ rm -rf $RPM_BUILD_ROOT
 %files -f %name.lang
 %defattr(-,root,root,0755)
 %{_bindir}/*
-%{_menudir}/%{name}
 %{_datadir}/applications/mandriva-%{name}.desktop
 
 
