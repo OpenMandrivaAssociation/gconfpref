@@ -18,8 +18,8 @@ Buildrequires: libgnomeui2-devel >= 2.0
 Buildrequires: libatk-devel >= 1.0
 Buildrequires: libpango-devel >= 1.0
 Buildrequires: libgnomecanvas2-devel >= 2.0
-Buildrequires: libGConf-devel >= 2.0
-Buildrequires: libgnome-vfs-devel >= 2.0
+Buildrequires: libGConf2-devel >= 2.0
+Buildrequires: gnome-vfs2-devel >= 2.0
 
 %description
 Gconfpref is a user friendly gconf editor.
