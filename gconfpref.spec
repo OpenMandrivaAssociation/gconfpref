@@ -7,7 +7,7 @@ Summary: Another configuration tools for gconf
 Version: %{version}
 Release: %{release}
 License: GPL
-Url: http://www.angelfire.com/linux/dbrody/gconfpref.html
+Url: https://www.angelfire.com/linux/dbrody/gconfpref.html
 Group: Graphical desktop/GNOME
 Source: %{name}-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/build-root-%{name}
