@@ -12,6 +12,9 @@ Group: Graphical desktop/GNOME
 Source: %{name}-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/build-root-%{name}
 
+BuildRequires:	autoconf
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires: automake >= 1.4
 Buildrequires: libgnome2-devel >= 2.0
 Buildrequires: libgnomeui2-devel >= 2.0
